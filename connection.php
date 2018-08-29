@@ -1,8 +1,8 @@
 <?php
 
 $host="localhost";
-$user="id6882724_dradh";
-$password="bapa2133";
+$user="db_user";
+$password="db_password";
 $db="id6882724_livestream";
 
 $con = mysqli_connect($host,$user,$password);
