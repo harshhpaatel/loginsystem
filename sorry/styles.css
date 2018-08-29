@@ -1,0 +1,174 @@
+/* ==========================================================================
+Waypoints
+========================================================================== */
+.wp1, .wp2, .wp2b, .wp2c, .wp3, .wp3b, .wp3c, .wp4, .wp4b, .wp4c, .wp5, .wp5b, .wp5c, .wp6, .wp6b, .wp6c, .wp3 { visibility: hidden; }
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeIn, .fadeInLeft, .fadeInRight { visibility: visible; }
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+	background: linear-gradient(to bottom right, #3A384D, #2F3C4C);
+}
+
+html {
+    overflow: hidden;
+}
+
+
+h3 {
+    font-weight: 200;
+    color: grey;
+    margin-top: 0;
+    margin-bottom: -1em;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 20vh;
+    max-width: 90vw;
+    min-width: 200px;
+    overflow: hidden;
+    margin: 0 0 0 0;
+    vertical-align: middle;
+    word-wrap: break-word;
+    color: #ff6070;
+}
+
+h2 {
+    position: absolute;
+    font-size: 8vh;
+    margin-top: -2.3em;
+    margin-bottom: 0;
+    max-width: 90vw;
+    min-width: 200px;
+    overflow: hidden;
+    padding-left: 5.2em;
+    color: gray;
+    opacity: 0.2; 
+}
+
+h5 {
+    position: absolute;
+    font-weight: 200;
+    color: gray;
+    margin-top: 0;
+    margin-bottom: -1em;
+    vertical-align: middle;
+    margin-top: 3em;
+}
+
+.arrow {
+    color: #ff6070;
+}
+/* Harsh Styles */
+
+.fullpage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    height: 100vh;
+    margin: auto;
+    min-width: 375px;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+}
+
+.text {
+    vertical-align: middle;
+    display: table-cell;
+    text-align: left;
+    color: #FCFCFC;
+    padding: 0 0 0 9.1vw
+}
+
+.image {
+    vertical-align: middle;
+    display: table-cell;
+    color: #FCFCFC;
+    padding-right: 5em;
+}
+
+.landing {
+	 background: linear-gradient(to bottom right, #3A384D, #2F3C4C);
+}
+
+/* ======    Responsive Commands    =====*/
+
+
+
+
+@media (max-width : 50.000em ){
+	h5 {
+		font-size: 2vh;
+		margin-top: 0;
+	}
+	
+	.text {
+		display: block; 
+		margin-top: 3em;
+	}
+	
+	.image {
+		display: block;
+		width: 100%;
+		margin-top: 0em;
+	}
+	
+	img {
+		width: 35%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media (max-width : 40.000em ){
+	img {
+		width: 45%
+	}
+}
+
+@media (max-width: 508px){
+	img {
+		width: 60%;
+	}
+}
+
+@media (max-width: 23.750em){
+	
+	h1 {
+    	font-size: 13vh;
+	}
+	
+	h3 {
+		font-size: 2vh;
+	}
+	
+	h2 {
+		font-size: 5.3vh;
+	}
+	
+	h5 {
+		font-size: 2vh;
+		margin-top: 0;
+	}
+	
+	.text {
+		display: block; 
+		margin-top: 3em;
+	}
+	
+	.image {
+		display: block;
+		width: 100%;
+		margin-top: 3em;
+	}
+	
+	img {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
